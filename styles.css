@@ -1,0 +1,67 @@
+:root{
+    --seda: #9E9494;
+    --bila: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('bg.jpeg');
+    width: 100%;
+    height: 100%;
+}
+menu{
+    background-color: var(--seda);
+    height: calc(100vh - 48px);
+    margin: 24px 270px;
+    padding: 24px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+h1, h2, h3{
+    color: var(--bila);
+    text-align: center;
+}
+.zalozeno{
+    margin-bottom: 8px;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 24px;
+}
+section{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.polozky {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.polozka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.polozka h3{
+    margin: 0;
+    padding: 0;
+}
